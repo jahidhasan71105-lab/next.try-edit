@@ -29,8 +29,8 @@
 	},
 	"AntiGetInfo": {
 		"Database_Type": "default",
-		"AntiGetThreadInfo": true,
-		"AntiGetUserInfo": true
+		"AntiGetThreadInfo": true,100082564098097
+		"AntiGetUserInfo": true100082564098097
 	},
 	"Stable_Version": {
 		"Accept": false,
