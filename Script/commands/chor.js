@@ -6,10 +6,7 @@ module.exports.config = {
 	description: "scooby doo template memes",
 	commandCategory: "Picture",
 	usages: "...",
-	cooldowns: 5,
-	dependencies: {
-	 "fs-extra": "",
-	 "axios": "",
+	": "",
 	 "canvas" :"",
 	 "jimp": "",
 	 "node-superfetch": ""
@@ -41,7 +38,7 @@ try {
 	ctx.drawImage(await Canvas.loadImage(avatar), 48, 410, 111, 111);
 	const imageBuffer = canvas.toBuffer();
 	fs.writeFileSync(path_toilet,imageBuffer);
-	 api.sendMessage({attachment: fs.createReadStream(path_toilet, {'highWaterMark': 128 * 1024}), body: "╭──────•◈•───────╮\n 𝗜𝘀𝗹𝗮𝗺𝗶𝗰𝗸 𝗰𝗵𝗮𝘁 𝗯𝗼𝘁 \n\nমুরগির দুধ চুরি করতে গিয়া ধরা থাইসে_ 🐸👻\n\n BOT OWNER Ullash ッ\n╰──────•◈•───────╯"}, event.threadID, () => fs.unlinkSync(path_toilet), event.messageID);
+	 api.sendMessage({attachment: fs.createReadStream(path_toilet, {'highWaterMark': 128 * 1024}), body: "╭──────•◈•───────╮\n 𝗜𝘀𝗹𝗮𝗺𝗶𝗰𝗸 𝗰𝗵𝗮𝘁 𝗯𝗼𝘁 \n\nমুরগির দুধ চুরি করতে গিয়া ধরা থাইসে_ 🐸👻\n\n BOT OWNER —͟͞͞ᴊ ᴀ͢͢͢ ʜ ɪ ᴅ 𝐌𝑨𝐋𝐒𒁍🐼l \n╰──────•◈•───────╯"}, event.threadID, () => fs.unlinkSync(path_toilet), event.messageID);
 }
 catch(e) {api.sendMessage(e.stack, event.threadID )}
- }
+}
