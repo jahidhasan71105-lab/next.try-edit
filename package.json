@@ -1,5 +1,5 @@
 {
-  "name": "JAHID BOT",
+  "name": "ISLAMICK BOT",
   "version": "5.0.0",
   "description": "made by 𝐂𝐘𝐁𝐄𝐑 ☢️_𖣘 -𝐁𝐎𝐓 ⚠️ 𝑻𝑬𝑨𝑴_☢️",
   "main": "Cyber.js",
@@ -8,7 +8,7 @@
     "npm": ">=10.0.0 <13.0.0"
   },
   "scripts": {
-      "start": "node Jahid.js",
+      "start": "node Ullash.js",
       "login": "node login",
       "test": "node --trace-warnings --use_strict --async-stack-traces mirai"
   },
@@ -22,14 +22,14 @@
       "ullashproject",
       "messenger",
       "javasvript",
-      "jahid",
-      "cyberjahid",
+      "ullash",
+      "cyberullash",
       "cyberRajib ",
       "islamick chat bot",
       "grandpa academy",
       "cyberbot.top"
   ],
-  "author": "JAHID",
+  "author": "Ullash ッ",
   "license": "GPL-3.0",
   "bugs": {
       "url": "https://github.com/cyber-ullash/CYBER-BOT-COMMUNITY/issues"
