@@ -61,7 +61,7 @@ users.needObject=Have to be an Object
 
 handleCommand.userBanned=বক্স এ আবলামি করার অপরাধে তোরে  বেন করে দেওয়া হয়েছে-!!🚫
 handleCommand.threadBanned=Group Has Been Banned..!⛔️\nPlease Contact Owner Md Jahid Hasan Rajib  For Unban ⚠️
-handleCommand.commandNotExist=━━━━━━━✦━━━━━━━ \n    ✨ Assalamu Alaikum! 💖🌟\n━━━━━━━✦━━━━━━━\n\nThe command you gave is not valid here.\n\nCould it be— \n\n•—» %1  «—•\n\nCheck your input, please!\n━━━━━━━✦━━━━━━━".
+handleCommand.commandNotExist=━এই সব বাল ছাল কমান্ড এর রোবোট আমি না ওখে 😒😾🤖".
 handleCommand.commandThreadBanned=Your thread is unable to use command "%1"
 handleCommand.commandUserBanned=You are unable to use command "%1"
 handleCommand.threadNotAllowNSFW=This Commnd Only use Andmi
