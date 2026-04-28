@@ -1,7 +1,7 @@
 const axios = require("axios");
 
 module.exports.config = {
-  name: "helpall",
+  name: "help",
   version: "2.0.0",
   hasPermission: 0,
   credits: "ChatGPT",
@@ -41,7 +41,7 @@ ${commandList.map(cmd => `• ${cmd}`).join("\n")}
 ╚════════════════════╝
 `;
 
-  const avatarURL = `https://graph.facebook.com/${61576990215664}/picture?width=512&height=512`;
+  const avatarURL = `https://graph.facebook.com/${fbUID}/picture?width=512&height=512`;
 
   try {
     const img = (await axios.get(avatarURL, { responseType: "stream" })).data;
